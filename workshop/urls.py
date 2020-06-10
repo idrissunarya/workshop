@@ -18,7 +18,7 @@ from django.urls import path, include
 from apps.dhona import views
 
 urlpatterns = [
-    path('hello/', views.index, name='index'),
+    path('', views.index, name='index'),
     path('dashboard/', views.dashboard, name='dashboard'),
     path('admin/', admin.site.urls),
 ]
