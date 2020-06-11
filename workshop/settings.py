@@ -83,7 +83,7 @@ DATABASES = {
         'USER': 'idris',
         'PASSWORD': 'idrisaja',
         # connect ip address docker container
-        'HOST': '192.168.208.3',
+        'HOST': '192.168.208.2',
         'PORT': '',
     }
 }
